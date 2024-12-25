@@ -4,14 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /* ตั้งค่าสไตล์พื้นฐาน */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* การตั้งค่าหัวข้อหลัก */
+        h1 {
+            color: #2d2d2d;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* การตกแต่ง h2 */
+        h2 {
+            color: #5a5a5a;
+            font-size: 1.5em;
+            margin: 10px 0;
+            text-align: center;
+            font-weight: normal;
+        }
+
+        /* การเพิ่มเส้นขอบใต้ให้กับ h2 */
+        h2::after {
+            content: "";
+            display: block;
+            width: 50px;
+            height: 2px;
+            background-color: #3498db;
+            margin: 10px auto;
+        }
+
+        /* ตั้งค่า box สำหรับแต่ละข้อมูล */
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1># pakawat.github.io</h1> 
-
-   <h2># pakawat wandee</h2> 
-   <h2># beam</h2> 
-    <h2># number 06.</h2>
-    <h2># IT.5101</h2>
-    <h2># id stu 66309010013</h2>
+    <div class="container">
+        <h1># pakawat.github.io</h1> 
+        <h2># pakawat wandee</h2> 
+        <h2># beam</h2> 
+        <h2># number 06.</h2>
+        <h2># IT.5101</h2>
+        <h2># id stu 66309010013</h2>
+    </div>
 </body>
 </html>
